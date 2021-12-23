@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        motion:constraintSetEnd="@+id/end"
+        motion:constraintSetStart="@id/start"
+        motion:duration="1000">
+        <OnClick motion:targetId="@id/firstanim"
+            motion:clickAction="toggle"/>
+        <KeyFrameSet>
+            <KeyAttribute
+                motion:motionTarget="@+id/firstanim"
+                motion:framePosition="20" />
+            <KeyAttribute
+                motion:motionTarget="@+id/firstanim"
+                motion:framePosition="100" />
+        </KeyFrameSet>
+    </Transition>
+
+    <ConstraintSet android:id="@+id/start">
+        <Constraint
+            android:layout_height="209dp"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="199dp"
+            android:id="@+id/firstanim"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintBottom_toBottomOf="parent" />
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end">
+        <Constraint
+            android:layout_height="925dp"
+            android:layout_width="550dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/firstanim"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintBottom_toBottomOf="parent"/>
+    </ConstraintSet>
+
+</MotionScene>

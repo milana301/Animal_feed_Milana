@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    app:layoutDescription="@xml/homepage_scene"
+    tools:context=".HomepageActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/perehod"
+            android:layout_width="400dp"
+            android:layout_height="750dp"
+            android:background="@color/blue" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/firstanim"
+        android:layout_width="199dp"
+        android:layout_height="209dp"
+        android:src="@drawable/png_transparent_dog_paw_printing_dog_animals_paw_monochrome_removebg_preview" />
+
+
+</androidx.constraintlayout.motion.widget.MotionLayout>

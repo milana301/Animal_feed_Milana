@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="korzina">Корзина</string>
+    <string name="zakaz">Ваш заказ</string>
+    <string name="_85_00">85.00</string>
+    <string name="opisanie">Корм (3): 255.00 KG Доставка: 50.00 KGS Всего: 305.00 KGS</string>
+    <string name="oplata">Способ оплаты:</string>
+    <string name="nazvanie4">Nutri pockets dental</string>
+    <string name="nazvanie3">Pedigree</string>
+    <string name="nazvanie2">Kitekat</string>
+    <string name="nazvanie">Chappi</string>
+    <string name="_120_00">120.00</string>
+    <string name="_95_00">95.00</string>
+    <string name="_855_00">85.00</string>
+    <string name="_179_00">179.00</string>
+    <string name="korm">Корм для животных:</string>
+</resources>
